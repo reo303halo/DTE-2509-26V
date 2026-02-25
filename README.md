@@ -1,4 +1,4 @@
-# DTE-2509-1 25V: Basic Web Development with HTML/CSS and Python/Flask
+# DTE-2509-1 26V: Basic Web Development with HTML/CSS and Python/Flask
 
 Welcome to **DTE-2509-1 26V**, a course designed to introduce students to the fundamentals of web development. Throughout this course, we will explore essential concepts in **HTML, CSS, Python, and Flask**, along with basic database interactions, APIs, and security best practices.
 

@@ -1,6 +1,61 @@
 {% extends "base.html" %}
 {% block content %}
 
+<header>
+    <h1>2nd Generation Chevrolet Camaro (1970 – 1981)</h1>
+    <p>A presentation about the iconic American muscle car.</p>
+</header>
 
+<nav>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Chevrolet_Camaro_(second_generation)">Camaro Wikipedia (external link)</a></li>
+        <li>
+            <a href="{{ url_for('contact') }}">Contact form</a>
+        </li>
+    </ul>
+</nav>
+
+<section>
+    <article>
+        <h2>History</h2>
+        <p>The second generation Camaro was produced from 1970 to 1981. <br/>
+        It featured a new body design and improved handling compared to the first generation.</p>
+
+        <img src="{{ url_for('static', filename='camaro.JPG') }}" height="500px">
+    </article>
+
+    <div class="two-columns">
+        <article>
+            <h2>Popular Models</h2>
+
+            <ol>
+                <li>Camaro Z28</li>
+                <li>Camaro RS</li>
+                <li>Camaro Berlinetta</li>
+                <li>Camaro SS</li>
+            </ol>
+        </article>
+
+         <article>
+            <h2>Engine Options</h2>
+
+            <ul>
+                <li>Small Block V8
+                    <ul>
+                        <li>350 cubic inch</li>
+                        <li>305 cubic inch</li>
+                    </ul>
+                </li>
+
+                <li>Big Block V8
+                    <ul>
+                        <li>396 cubic inch</li>
+                        <li>402 cubic inch</li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+    </div>
+</section>
 
 {% endblock %}

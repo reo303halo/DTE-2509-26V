@@ -1,0 +1,4 @@
+Firstname: Roy Espen
+Lastname: Olsen
+Email: roy.e.olsen@uit.no
+Password(hashed): scrypt:32768:8:1$Gejj5zoEoFzGnIIY$f6eff849ab04fc7541c1b3b16b2e929bccfb66ae3b2d8b9c522e12c768ab9707bd1d41ba1ff85e3ce9645ad166b8d7ca992ace07e3d3401f2b2815443de87058

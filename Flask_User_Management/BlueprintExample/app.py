@@ -26,6 +26,7 @@ def home():
         cars = [Car(*car) for car in db.get_cars_by_owner(current_user.id)]
 
     return render_template('index.html', user = current_user, cars = cars)
+# At this stage you got to manually add cars in the database with owner_id that matches the owners user id.
 
 
 if __name__ == '__main__':

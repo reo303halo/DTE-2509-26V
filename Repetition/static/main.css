@@ -1,0 +1,17 @@
+body {
+    background-color: bisque;
+    text-align: center;
+    font-family: Shanti, sans-serif;
+}
+
+h1 {
+    color: aquamarine;
+    font-size: 1.6em;
+    margin: 20px;
+}
+
+p {
+    color:rgb(249, 91, 91);
+    font-size: 1.2em;
+    margin: 20px;
+}
